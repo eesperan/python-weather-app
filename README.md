@@ -80,7 +80,8 @@ First, we specify in the head of the function definition that the input will be 
 - `latitude` (Float)
 - `longitude` (Float)
 - `verbose` (Boolean)
-  We then process the list of supplied `args`, and store the resulting `argparse.Namespace` items in `parsed_args`.
+
+We then process the list of supplied `args`, and store the resulting `argparse.Namespace` items in `parsed_args`.
 
 From here, we do a number of checks to ensure that the argument values are valid / complete:
 
